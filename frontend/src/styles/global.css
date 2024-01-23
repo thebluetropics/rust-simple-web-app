@@ -1,0 +1,26 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+*::selection {
+  background-color: #242424;
+  color: #cfcfcf;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

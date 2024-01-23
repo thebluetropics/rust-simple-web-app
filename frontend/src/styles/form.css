@@ -1,0 +1,37 @@
+.form {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  row-gap: 5px;
+}
+
+.form input {
+  height: 24px;
+  background-color: #eee;
+  border: 1px solid #cfcfcf;
+  border-radius: 3px;
+  padding-inline: 5px;
+  outline: none;
+  font-size: 12px;
+}
+
+.form button {
+  background-color: #242424;
+  color: #cfcfcf;
+  font-size: 12px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #404040;
+}
+
+.form button:active {
+  background-color: #cfcfcf;
+  color: #404040;
+}

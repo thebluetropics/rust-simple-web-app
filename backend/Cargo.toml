@@ -1,0 +1,32 @@
+[package]
+name = "rust-simple-webapp-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-files = "0.6.5"
+actix-web = "4.4.1"
+actix-web-httpauth = "0.8.1"
+anyhow = "1.0.79"
+argon2 = "0.5.2"
+dotenv = "0.15.0"
+jsonwebtoken = "9.2.0"
+serde = "1.0.195"
+serde_json = "1.0.111"
+thiserror = "1.0.56"
+
+[dependencies.tokio-postgres]
+version = "0.7.10"
+features = ["with-uuid-1"]
+
+[dependencies.tokio]
+version = "1.35.1"
+features = ["full"]
+
+[dependencies.uuid]
+version = "1.6.1"
+features = ["v4"]
+
+[dependencies.chrono]
+version = "0.4.31"
+features = ["clock"]
