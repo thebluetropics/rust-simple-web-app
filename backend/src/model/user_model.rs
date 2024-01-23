@@ -8,7 +8,6 @@ use crate::error::DbError;
 pub struct User {
   pub id: Uuid,
   pub name: String,
-  pub display_name: Option<String>,
   pub password_hash: String
 }
 
@@ -17,7 +16,6 @@ impl User {
     User {
       id: row.get("user_id"),
       name: row.get("user_name"),
-      display_name: row.get("user_display_name"),
       password_hash: row.get("user_password_hash")
     }
   }
